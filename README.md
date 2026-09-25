@@ -1,5 +1,10 @@
 # How Many People Can Bench 225 / 315 / 405?
 
+> **Superseded (July 2026):** the final harmonized model for all three lifts lives in
+> [`../sbd_final`](../sbd_final). This v1 model counted gym lifters only; the final model adds
+> non-gym athletes, so its bench totals are ~11% higher (225 lbs: 9.27M here → 10.33M final).
+> This README documents the model as originally published.
+
 I wanted an actual answer to this, not just a gym-bro guess. So I built a statistical model using 3+ million real competition lifts to estimate how many people on earth can hit each milestone, with real confidence intervals.
 
 ## Why most estimates are wrong
